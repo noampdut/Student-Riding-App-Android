@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:layout_marginBottom="-200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/hello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/text"
+            android:textSize="25dp"
+            android:text="Hello "/>
+
+        <Button
+            android:id="@+id/need_ride_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="20dp"
+            android:text="need a ride"
+            android:textColor="@color/black"
+            android:fontFamily="@font/text"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint ="@color/White"
+            tools:layout_editor_absoluteY="363dp" />
+
+        <Button
+            android:id="@+id/offer_ride_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:text="Offer a ride"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/black"
+            android:backgroundTint ="@color/White"
+            android:fontFamily="@font/text"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteY="465dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="-30dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/my_cars_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00FFFFFF"
+                    android:layout_marginLeft="5dp"
+                    android:outlineSpotShadowColor="@color/White"
+                    app:srcCompat="@drawable/steering_wheel" />
+
+                <TextView
+                    android:id="@+id/my_cars_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/White"
+                    android:fontFamily="@font/text"
+                    android:textSize="20dp"
+                    android:text="My Cars" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/available_rides_btn"
+                    android:layout_width="118dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="#00FFFFFF"
+                    android:outlineSpotShadowColor="@color/White"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:srcCompat="@drawable/available_rides_icon" />
+
+                <TextView
+                    android:id="@+id/available_rides_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/text"
+                    android:textSize="20dp"
+                    android:textColor="@color/White"
+                    android:text="@string/available_rides" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/history_rides_btn"
+                    android:layout_width="118dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="50dp"
+                    android:background="#00FFFFFF"
+                    android:textStyle="bold"
+                    android:textColor="@color/White"
+                    app:srcCompat="@drawable/history_icon" />
+
+                <TextView
+                    android:id="@+id/rides_history_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:fontFamily="@font/text"
+                    android:textSize="20dp"
+                    android:textColor="@color/White"
+                    android:text="History" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/edit_bio_start"
+                android:layout_width="118dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="20dp"
+                android:background="#00FFFFFF"
+                android:outlineSpotShadowColor="@color/White"
+                app:srcCompat="@drawable/baseline_border_color_24" />
+
+            <TextView
+                android:id="@+id/bio_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:textColor="@color/White"
+                android:text="Edit Bio" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

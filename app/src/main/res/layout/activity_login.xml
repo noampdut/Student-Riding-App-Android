@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:layout_marginBottom="-200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <EditText
+            android:id="@+id/et_Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_etID"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/id"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_etPassword"
+            android:textColorHint="@color/white"
+            android:drawableStart="@drawable/pwd"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+    <Button
+        android:id="@+id/btnToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="MissingConstraints"
+        android:fontFamily="@font/text"
+        android:textSize="20dp"
+        android:backgroundTint ="@color/white"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <Button
+        android:id="@+id/btnToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:text="register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/text"
+        android:textSize="20dp"
+        android:backgroundTint ="@color/White"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>

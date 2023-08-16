@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Share-Drive-Client-Side.iml" filepath="$PROJECT_DIR$/.idea/Share-Drive-Client-Side.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TrempMe.iml" filepath="$PROJECT_DIR$/.idea/modules/TrempMe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TrempMe.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TrempMe.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TrempMe.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TrempMe.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TrempMe.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TrempMe.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TrempMe.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TrempMe.app.unitTest.iml" />
     </modules>
   </component>
 </project>

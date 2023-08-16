@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="-200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Car Number"
+                android:fontFamily="@font/text"
+                android:textSize="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="208dp" />
+
+            <EditText
+                android:id="@+id/et_carNumber_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="25689512"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="255dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/LemonChiffon"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="NickName"
+                android:fontFamily="@font/text"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="266dp" />
+
+            <EditText
+                android:id="@+id/et_nickname_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="50dp"
+                android:ems="10"
+                android:text="my car"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="198dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/LemonChiffon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:fontFamily="@font/text"
+                android:textSize="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="327dp" />
+
+            <EditText
+                android:id="@+id/et_type_new"
+                android:layout_width="81dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="192dp"
+                android:ems="10"
+                android:hint="mazda"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="323dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/LemonChiffon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:fontFamily="@font/text"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="25dp"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="414dp" />
+            <EditText
+                android:id="@+id/et_color_new"
+                android:layout_width="81dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="192dp"
+                android:ems="10"
+                android:hint="Black"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="323dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/LemonChiffon"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_new_car"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:fontFamily="@font/text"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:text="add" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

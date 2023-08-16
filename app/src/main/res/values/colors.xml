@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="sienna">#A0522D</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Ivory">#FFFFF0</color>
+    <color name="LightYellow">#FFFFE0</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Snow">#FFFAFA</color>
+    <color name="FloralWhite">#FFFAF0</color>
+    <color name="LemonChiffon">#FFFACD</color>
+    <color name="Cornsilk">#FFF8DC</color>
+    <color name="Seashell">#FFF5EE</color>
+    <color name="LavenderBlush">#FFF0F5</color>
+    <color name="PapayaWhip">#FFEFD5</color>
+    <color name="BlanchedAlmond">#FFEBCD</color>
+    <color name="MistyRose">#FFE4E1</color>
+    <color name="Bisque">#FFE4C4</color>
+    <color name="Moccasin">#FFE4B5</color>
+    <color name="NavajoWhite">#FFDEAD</color>
+    <color name="PeachPuff">#FFDAB9</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Pink">#FFC0CB</color>
+    <color name="gray">#808080</color>
+</resources>

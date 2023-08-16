@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bio_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/road2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginBottom="-80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/current_bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:ems="50"
+            android:gravity="center"
+            android:minHeight="48dp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:fontFamily="@font/text"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:ems="50"
+            android:gravity="center"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:text="Share something about yourself:"
+            android:fontFamily="@font/text"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_movies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:text="Movies" />
+
+            <CheckBox
+                android:id="@+id/checkbox_dogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:text="Dogs" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_music"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:text="Music" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:text="Sports" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="100dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_cats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:text="Cats" />
+
+            <CheckBox
+                android:id="@+id/checkbox_shopping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:fontFamily="@font/text"
+                android:textSize="20dp"
+                android:text="Shopping" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/username"
+            android:ems="10"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Add something (degree or gender and more)"
+            android:fontFamily="@font/text"
+            android:textSize="20dp"
+            android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/skip_bio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/White"
+            android:text="not now"
+            android:textColor="@color/black"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/text"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bio_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/White"
+            android:text="Save"
+            android:textColor="@color/black"
+            android:fontFamily="@font/text"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

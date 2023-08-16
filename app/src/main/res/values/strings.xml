@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Pick me</string>
+    <string name="login_etPassword">Password</string>
+    <string name="login_etID">ID</string>
+    <string name="Register_etPassword_Validation">Validate Password</string>
+    <string name="register_btn">Register</string>
+    <string name="register_etPassword">Password</string>
+    <string name="Register_etNickName">Nick Name</string>
+    <string name="Register_etUserName">User Name</string>
+    <string name="leaving_time">Leaving time:</string>
+    <string name="today">Today</string>
+    <string name="login">Login</string>
+    <string name="not_registered_yet_click_here_to_register">to register</string>
+    <string name="available_rides">My Rides</string>
+    <string name="rides_history">Rides History</string>
+    <string name="title_activity_history_ride_item">HistoryRideItem</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="BaseUrl">https://10.0.2.2:7255/api/</string>
+</resources>
